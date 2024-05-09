@@ -1,0 +1,531 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #fffdf0;
+}
+body {
+    overflow-x: hidden;
+    
+}
+@font-face {
+    font-family: 'ClassyVogue';
+    src: url('Classy Vogue Stylish Serif Font.otf') format('opentype');
+}
+.logo{
+    width: 350px;
+    height: 270px;
+}
+.active {
+    font-size: 30px;
+}
+
+.vertical-menu {
+    width: 350px;
+    height: 450px;
+    overflow-y: auto;
+    position: absolute;
+    left: 13%; 
+ margin-top: 5%; 
+    transform: translateY(-50%); 
+    z-index: 1;
+    font-family: "area-normal";
+    display: none;
+}
+
+@media only screen and (max-width: 768px) {
+    .vertical-menu {
+        width: 80%; 
+        height: 60%; 
+        left: 50%; 
+        top: 50%; 
+        transform: translate(-50%, -50%);
+    }
+}
+
+.vertical-menu a {
+    background-color: #eee;
+    color: #333;
+    display: block;
+    padding: 12px;
+    text-decoration: none;
+}
+
+.vertical-menu a:hover {
+    background-color: #ccc;
+}
+
+.vertical-menu a:active {
+    background-color: #4caf50;
+    color: white;
+}
+
+.active2{
+    font-size: 30px;
+}
+.vertical-menu2 {
+    width: 350px;
+    height: 450px;
+    overflow-y: auto;
+    position: absolute;
+    left: 13%; 
+    margin-top: 5%;
+    z-index: 1;
+    font-family: "area-normal";
+}
+@media only screen and (max-width: 768px) {
+    .vertical-menu2 {
+        width: 90%; 
+        height: 60%; 
+        left: 50%; 
+        top: 50%; 
+        transform: translate(-50%, -50%); 
+    }
+}
+.vertical-menu2 {
+    display: none;
+  }
+.vertical-menu2 a{
+    background-color: #eee;
+    color: #333;
+    display: block;
+    padding: 12px;
+    text-decoration: none;
+}
+.vertical-menu2 a:hover{
+    background-color: #ccc;
+}
+.vertical-menu2 a:active{
+    background-color: #4caf50;
+    color: white;
+}
+
+.active3{
+    font-size: 30px;
+}
+.vertical-menu3 {
+    width: 350px;
+    height: 450px;
+    overflow-y: auto;
+    position: absolute;
+    left: 13%; 
+    margin-top: 5%;
+    z-index: 1;
+    font-family: "area-normal";
+}
+.vertical-menu3 {
+    display: none;
+  }
+.vertical-menu3 a{
+    background-color: #eee;
+    color: #333;
+    display: block;
+    padding: 12px;
+    text-decoration: none;
+}
+.vertical-menu3 a:hover{
+    background-color: #ccc;
+}
+.vertical-menu3 a:active{
+    background-color: #4caf50;
+    color: white;
+}
+
+.active4{
+    font-size: 30px;
+}
+.vertical-menu4 {
+    width: 350px;
+    height: 450px;
+    overflow-y: auto;
+    position: absolute;
+    left: 13%; 
+    margin-top: 5%;
+    z-index: 1;
+    font-family: "area-normal";
+}
+.vertical-menu4 {
+    display: none;
+  }
+.vertical-menu4 a{
+    background-color: #eee;
+    color: #333;
+    display: block;
+    padding: 12px;
+    text-decoration: none;
+}
+.vertical-menu4 a:hover{
+    background-color: #ccc;
+}
+.vertical-menu4 a:active{
+    background-color: #4caf50;
+    color: white;
+}
+
+.active5{
+    font-size: 30px;
+}
+.vertical-menu5 {
+    width: 350px;
+    height: 450px;
+    overflow-y: auto;
+    position: absolute;
+    left: 13%; 
+    margin-top: 5%;
+    z-index: 1;
+    font-family: "area-normal";
+}
+.vertical-menu5 {
+    display: none;
+  }
+.vertical-menu5 a{
+    background-color: #eee;
+    color: #333;
+    display: block;
+    padding: 12px;
+    text-decoration: none;
+}
+.vertical-menu5 a:hover{
+    background-color: #ccc;
+}
+.vertical-menu5 a:active{
+    background-color: #4caf50;
+    color: white;
+}
+
+.earth {
+    margin-top: 20%; 
+   margin-left: 50%;
+   transform: translate(-50%, -50%); 
+    width: 500px;
+    height: 500px;
+    background-image: url(https://www.printablee.com//postpic/2021/05/printable-world-map-without-labelsn_573.jpg);
+    border-radius: 50%;
+    background-size: cover;
+    box-shadow: -20px -20px 50px 2px #707070 inset, 0 0 20px 2px #9b9999;
+    transition: width 0.5s, height 0.5s; 
+    animation: spin 8s linear alternate infinite;
+}
+
+@keyframes spin {
+    100% {
+        background-position: 100%;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .earth {
+        margin-left: 50%; 
+        transform: translateX(-50%); 
+        width: 300px;
+        height: 300px;
+    }
+}
+h1 {
+    font-family: 'ClassyVogue';
+    font-size: 80px;
+    z-index: 1; 
+    margin-top:-25%;
+    text-align: center;
+    background-color: transparent;
+}
+
+
+h2 {
+    font-family: "area-normal";
+    font-size: 30px;
+    z-index: 2;
+    text-align: center;
+    padding: 5px 20%;
+    background-color: transparent;
+}
+
+h3{
+    font-family: 'ClassyVogue';
+    font-size: 60px;
+    margin-top: 10%;
+    text-align: center;
+    padding: 5px 5%;
+    background-color: transparent;
+ 
+}
+h4{
+    font-family: 'ClassyVogue';
+    font-size: 60px;
+    margin-top: 30%;
+    padding: 5px 5%;
+    text-align: center;
+    background-color: transparent;
+}
+
+p {
+    font-family: "area-normal";
+    font-size: 25px;
+    padding: 5px 10%;
+    margin-top: 1%;
+    text-align: center;
+    background-color: transparent;
+}
+p:nth-child(2){
+    font-family: "area-normal";
+    font-size: 10px;
+    padding: 5% 10%;
+    text-align: center;
+    background-color: transparent;
+}
+p:nth-child(3){
+    font-family: "area-normal";
+    font-size: 30px;
+    margin-top: 3%;
+    padding: 1% 10%;
+    text-align: center;
+}
+
+.text3{
+    font-family: "area-normal";
+    font-size: 20px;
+    margin-top: 1%;
+    padding: 1% 10%;
+    text-align: center;
+}
+.text4{
+    font-family: "area-normal";
+    font-size: 20px;
+    margin-top: 1%;
+    padding: 1% 10%;
+    text-align: center;
+}
+.text5{
+    font-family: "area-normal";
+    font-size: 20px;
+    margin-top: 1%;
+    padding: 1% 10%;
+    text-align: center;
+}
+li{
+    font-family: "area-normal", sans-serif;
+    font-style: normal;
+    font-size: 20px ;
+    padding:1% 15%;
+    text-align: center;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    height: 100vh; 
+}
+
+.nyc {
+    max-width: 100%;
+    margin-top: 10%; 
+    margin-left: 20%;
+    height: auto;
+    position: absolute;
+    transform: translate(-50%, -50%); 
+    top: 50%;
+    left: 30%;
+}
+
+.manhattan {
+    font-family: "area-normal";
+    font-size: 20px;
+    position: relative;
+   left: -1%;
+   top: 4%;
+    background-color: transparent;
+    cursor: pointer;
+    border: none;
+    transition: transform 0.3s ease;
+    outline: none !important;
+}
+
+.manhattan:hover {
+    transform: translateY(-10px); 
+}
+
+.bronx{
+    font-family: "area-normal";
+    font-size: 20px;
+    position: absolute;
+    top:27%;
+ left: 10%;
+ border: none;
+    background-color: transparent;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+.bronx:hover {
+    transform: translateY(-10px); 
+}
+.queens {
+    font-family: "area-normal";
+    font-size: 20px;
+    position: absolute;
+    top: 60%;
+   left: 15%;
+    background-color: transparent;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.queens:hover {
+    transform: translateY(-10px); 
+}
+
+.brooklyn{
+    font-family: "area-normal";
+    font-size: 20px;
+    position: absolute;
+    top:80%;
+  left:3%;
+    background-color: transparent;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+.brooklyn:hover {
+    transform: translateY(-10px); 
+}
+.staten {
+    font-family: "area-normal";
+    font-size: 20px;
+    position: absolute;
+    top: 95%; 
+    right: 18%; 
+    background-color: transparent;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+
+}
+
+.staten:hover {
+    transform: translateY(-10px); 
+}
+
+h5{
+    font-family: 'ClassyVogue';
+    font-size: 60px;
+    margin-top: 1%;
+    padding: 5px 5%;
+    text-align: center;
+}
+.contact{
+
+        font-family: "area-normal";
+        font-size: 20px;
+        margin-top: 1%;
+        padding: 1% 10%;
+        text-align: center;
+
+}
+.contact1{
+    min-height: 100vh;
+
+    padding: 50px;
+    text-align: center;
+}
+.container1{
+    max-width: 800px;
+    margin: 0 auto;
+}
+.container h5{
+    font-size: 36px;
+    margin-bottom: 40px;
+    color:#333;
+}
+.contact1-wrapper{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap:30px;
+}
+.contact-form{
+    text-align: left;
+    
+}
+.contact-form h6{
+    font-size: 24px;
+    margin-top: 20px;
+    color: #333;
+    font-family: "area-normal";
+}
+.form-group{
+    margin-top: 20px;
+    
+}
+input, textarea{
+    width: 100%;
+    padding: 12px;
+    border-radius: 8px;
+    border: none;
+    background-color: #f8f9fa;
+    color: #333;
+    
+}
+input:focus,
+textarea:focus{
+    outline: none;
+}
+button{
+    display: inline-block;
+    padding: 12px 24px;
+    margin-top: 20px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-family: "area-normal";
+}
+button:hover{
+    background-color: #45a049;
+}
+.contact-info{
+    text-align: left;
+}
+.contact-info p{
+margin-top: 10px;
+font-size: 20px;
+color: #333;
+
+}
+.contact-info i{
+    color: #4caf50;
+    margin-right: 10px;
+}
+
+
+h1, h2, h3, h4, p, li, .text3, .text4,.text5, .container, h5,h6, .contact, .contact1, .contact-info, .form-group, button, .vertical-menu, .vertical-menu2, .vertical-menu3, .vertical-menu4, .vertical-menu5{
+    animation: CSSscrollReveal ease-in-out both;
+    animation-timeline: view();
+    animation-range:entry 0% cover 45%;
+}
+@keyframes CSSscrollReveal{
+    from{
+        opacity: 0;
+        transform: translateY(100px);
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+@media only screen and (max-width: 768px) {
+ 
+  
+    .vertical-menu {
+      left: 0;
+      right: auto;
+    }
+  
+    .earth {
+      margin-left: 10%;
+      margin-right: auto;
+    }
+  
+    .logo {
+      left: 0%;
+    }
+  
+    h1, h2, h3, h4, p, li, .text3, .text4, .container, h5, h6, .contact, .contact1, .contact-info, .form-group, button, .vertical-menu {
+      text-align: left;
+    }
+  }
+  
